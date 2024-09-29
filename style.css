@@ -90,7 +90,10 @@
  background: #191919;
 }
 
-
+.button.button--link:hover, a.button.button--link:hover, .button.button--link:active, a.button.button--link:active, .button.button--link:focus, a.button.button--link:focus {
+    text-decoration: none;
+    background: #181818
+}
 
 .overlay {
     background: #1a1a1a;
