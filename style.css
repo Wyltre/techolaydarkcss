@@ -69,8 +69,33 @@
 } 
 
 
+.overlay-title {
+    
+    color: hsl(var(--xf-majorHeadingTextColor));
+    background: #191919;
+  
+}
+
+.formRow>dt {
+    background: #373737;
+    border-color: hsl(var(--xf-borderColorLight));
+}
+
+.formSubmitRow-bar {
+  
+    background: #191919
+}
+
+.formSubmitRow-controls {
+ background: #191919;
+}
 
 
+
+.overlay {
+    background: #1a1a1a;
+    color: hsl(var(--xf-textColor));
+}
 
 .pageNavSimple-el {
     display: inline-block;
