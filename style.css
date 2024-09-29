@@ -11,9 +11,22 @@
     border-color: #144a70 #1c669c #1c669c #144a70;
 }
 
+.tagItem {
+    display: inline-block;
+    max-width: 100%;
+    padding: 0 6px 1px;
+    margin: 0 0 2px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #fff;
+    background: #191919;
+    border: 1px solid #373737;
+}
 
-
-
+.alert.is-recently-read, .js-alertTabPanel .uix_canvasPanelBody .alert.is-recently-read, .js-alertsMenuBody .alert.is-recently-read, .alert-list .alert.is-recently-read {
+   
+    background: #282828;
+}
 
 .pageNavSimple-el.pageNavSimple-el--current {
     color: #dedede;
