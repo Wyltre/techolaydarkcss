@@ -64,8 +64,13 @@
 
 
 
-.contentRow {
-    background-color: #292929; 
+.bbCodeBlock {
+    background: hsl(0 0% 12% / 1) !important;
+}
+
+.message-articleUserInfo {
+    background: hsla(0 0% 12% / 1) !important;
+    border-top: 1px solid hsla(0 0% 22% / 1) !important;
 } 
 
 
